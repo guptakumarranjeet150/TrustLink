@@ -5,7 +5,6 @@ Cargo.lock
 *.pdb
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -25,3 +24,5 @@ Thumbs.db
 docs/formal/__*
 docs/formal/TLCResults/
 docs/formal/*.log
+config.bat
+node_modules
