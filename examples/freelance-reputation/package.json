@@ -5,7 +5,7 @@
   "description": "Freelance marketplace reputation example combining TrustLink endorsements and IssuerTier",
   "type": "module",
   "scripts": {
-    "start": "node index.mjs",
+    "start": "node init && node index.mjs",
     "test": "node --test index.test.mjs"
   },
   "dependencies": {

@@ -12,7 +12,7 @@
     }
   },
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "clean": "rm -rf dist",
     "test": "node --experimental-vm-modules node_modules/.bin/jest",
     "test:fuzz": "node --experimental-vm-modules node_modules/.bin/jest __tests__/errorDecode.fuzz.test.ts",
